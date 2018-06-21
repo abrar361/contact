@@ -41,7 +41,8 @@
         android:layout_height="0dip"
         android:layout_weight="1"
         android:gravity="center|bottom"
-        android:orientation="vertical" >&lt;Button
+        android:orientation="vertical" >
+        <Button
         android:text="Sign Out"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -50,6 +51,9 @@
         android:background="#00a1f1"
         android:textAllCaps="false"
         android:id="@+id/clearCache"
-        android:visibility="invisible" /&gt;</LinearLayout>
+        android:visibility="invisible">
+
+        </Button>
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
